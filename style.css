@@ -46,15 +46,27 @@ h1{
   font-size: 48px;
   color: #f9faf8;
   font-weight: bolder;
+  max-width: 400px;
 }
 
 .content{
   display: flex;
   flex-direction: row;
+  margin: 50px;
 }
 
 .content-left, .content-right{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.content-left{
+  max-width: 500px;
+}
+
+img{
+  margin: 50px;
 }
