@@ -22,7 +22,6 @@ body {
 .header-link, .content-sub, .copyright { 
   font-size: 18px;
   color: #e5e7eb;
-  margin: 10px;
 }
 
 .navbar {
@@ -37,13 +36,16 @@ ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  gap: 14px;
 }
 
 .navbar-left, .navbar-right{
   display: flex;
   width: 50%;
   align-items: center;
+  padding: 10px 0px;
 }
+
 
 .navbar-right {
   justify-content: flex-end;
@@ -53,27 +55,31 @@ h1{
   font-size: 48px;
   color: #f9faf8;
   font-weight: bolder;
-  max-width: 400px;
+}
+
+.content-sub{
+  padding: 10px 0;  
 }
 
 .content{
   display: flex;
   flex-direction: row;
-  margin: 50px;
+  justify-content: space-between;
+  margin: 50px 15%;
 }
 
 .content-left, .content-right{
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 50%;
+  max-width: 400px;
 }
 
 .content-left{
-  max-width: 500px;
-}
+  flex-wrap: wrap;
+ }
 
 img{
-  margin: 50px;
+  margin: 50px 0;
 }
